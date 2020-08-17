@@ -26,6 +26,5 @@ function accessElementInArray(array, index){
 }
 console.log(accessElementInArray(chocolateBars, 2));
 
-function destructivelyRemoveElementFromEndOfArray(array){
-  return array[index]
+
 }
