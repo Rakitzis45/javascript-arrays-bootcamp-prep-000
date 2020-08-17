@@ -11,3 +11,9 @@ console.log(chocolateBars);
  }
  destructivelyAddElementToBeginningOfArray(chocolateBars, "Hersheys");
  console.log(chocolateBars);
+
+function addElementToEndOfArray(array, element){
+  array.push(element);
+  return array;
+} addElementToEndOfArray(chocolateBars, "3 Musk");
+console.log(chocolateBars);
