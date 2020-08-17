@@ -4,15 +4,28 @@ return [element, ...array];
 }
 addElementToBeginningOfArray(chocolateBars, "hersheys");
 
-console.log(chocolateBars);
+
  function destructivelyAddElementToBeginningOfArray(array, element){
    array.unshift(element);
    return array;
  }
  destructivelyAddElementToBeginningOfArray(chocolateBars, "Hersheys");
- console.log(chocolateBars);
+;
 
 function addElementToEndOfArray(array, element){
   return [...array, element]
 } addElementToEndOfArray(chocolateBars, "3 Musk");
+
+
+function destructivelyAddElementToEndOfArray(array, element){
+  array.push(element);
+  return array;
+}
+function accessElementInArray(array, index){
+  return array[index]
+} accessElementInArray(chocolateBars, 2)
 console.log(chocolateBars);
+
+function destructivelyRemoveElementFromEndOfArray(array){
+  return array[index]
+}
