@@ -13,7 +13,6 @@ console.log(chocolateBars);
  console.log(chocolateBars);
 
 function addElementToEndOfArray(array, element){
-  array.push(element);
-  return array;
+  return [...array; element]
 } addElementToEndOfArray(chocolateBars, "3 Musk");
 console.log(chocolateBars);
