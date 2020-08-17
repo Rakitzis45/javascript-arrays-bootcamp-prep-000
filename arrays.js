@@ -23,8 +23,8 @@ function destructivelyAddElementToEndOfArray(array, element){
 }
 function accessElementInArray(array, index){
   return array[index]
-} accessElementInArray(chocolateBars, 2)
-console.log(chocolateBars);
+}
+console.log(accessElementInArray(chocolateBars, 2));
 
 function destructivelyRemoveElementFromEndOfArray(array){
   return array[index]
