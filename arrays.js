@@ -4,4 +4,8 @@ return [element, ...array];
 }
 addElementToBeginningOfArray(chocolateBars, "hersheys")
 
-console.log(chocolateBars)
+console.log(chocolateBars);
+ function destructivelyAddElementToBeginningOfArray(array, element){
+   return array.unshift(element);
+ }
+ console.log(chocolateBars);
